@@ -44,7 +44,7 @@ launch_button = tk.Button(root, text="Launch Game", command=launch_shortcut, fon
 launch_button.pack(pady=10, anchor="w", padx=20)
 
 # Add a config button with Bootstrap-like styling
-config_button = tk.Button(root, text="Config", command=launch_config, font=("Arial", 14, "bold"), bg="#28A745", fg="white", padx=20, pady=10, borderwidth=0, relief="flat")
+config_button = tk.Button(root, text="Video Config", command=launch_config, font=("Arial", 14, "bold"), bg="#28A745", fg="white", padx=20, pady=10, borderwidth=0, relief="flat")
 config_button.pack(pady=10, anchor="w", padx=20)
 
 # Add small text at bottom right
